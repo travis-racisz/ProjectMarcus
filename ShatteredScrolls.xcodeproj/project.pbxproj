@@ -12,7 +12,7 @@
 
 /* Begin PBXFileReference section */
 		70AF31E930764C0B933A065C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		8E8265CBE2384C90B868B589 /* cppARPG */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cppARPG; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8265CBE2384C90B868B589 /* ShatteredScrolls */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ShatteredScrolls; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,7 +43,7 @@
 		F2AD2E43B20A4EA0AAAE0A88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E8265CBE2384C90B868B589 /* cppARPG */,
+				8E8265CBE2384C90B868B589 /* ShatteredScrolls */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,9 +62,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		33123E61390B4E8B84D63153 /* cppARPG */ = {
+		33123E61390B4E8B84D63153 /* ShatteredScrolls */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56362B7D74DD4FE29CB09CF5 /* Build configuration list for PBXNativeTarget "cppARPG" */;
+			buildConfigurationList = 56362B7D74DD4FE29CB09CF5 /* Build configuration list for PBXNativeTarget "ShatteredScrolls" */;
 			buildPhases = (
 				E5AF59D11DE549488DCA6E89 /* Sources */,
 				5B086338069B41A69BE5865E /* Frameworks */,
@@ -78,9 +78,9 @@
 				9C31A0D32F7312CA00421F8A /* LevelEditor */,
 				9C31A0D72F7417C800421F8A /* UI */,
 			);
-			name = cppARPG;
-			productName = cppARPG;
-			productReference = 8E8265CBE2384C90B868B589 /* cppARPG */;
+			name = ShatteredScrolls;
+			productName = ShatteredScrolls;
+			productReference = 8E8265CBE2384C90B868B589 /* ShatteredScrolls */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -90,14 +90,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 2630;
+				LastUpgradeCheck = 2640;
 				TargetAttributes = {
 					33123E61390B4E8B84D63153 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = CEF0BA6D712F4D6B9A95A9FF /* Build configuration list for PBXProject "cppARPG" */;
+			buildConfigurationList = CEF0BA6D712F4D6B9A95A9FF /* Build configuration list for PBXProject "ShatteredScrolls" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33123E61390B4E8B84D63153 /* cppARPG */,
+				33123E61390B4E8B84D63153 /* ShatteredScrolls */,
 			);
 		};
 /* End PBXProject section */
@@ -292,7 +292,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		56362B7D74DD4FE29CB09CF5 /* Build configuration list for PBXNativeTarget "cppARPG" */ = {
+		56362B7D74DD4FE29CB09CF5 /* Build configuration list for PBXNativeTarget "ShatteredScrolls" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6AF790076C3949A2977B1ED1 /* Debug */,
@@ -301,7 +301,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEF0BA6D712F4D6B9A95A9FF /* Build configuration list for PBXProject "cppARPG" */ = {
+		CEF0BA6D712F4D6B9A95A9FF /* Build configuration list for PBXProject "ShatteredScrolls" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF54A1782FFF4F00BFAA9EA6 /* Debug */,

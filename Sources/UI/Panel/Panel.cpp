@@ -1,11 +1,15 @@
 //
 //  Panel.cpp
-//  cppARPG
+//  ShatteredScrolls
 //
 //  Created by Travis Racisz on 2026/03/25.
 //
 
 #include "Panel.hpp"
+
+//TODO: experiement with Triangle Fan and Triangle strip for drawing this panel
+//      this will allow for rounded corners and drop shadow. can also maybe implement this
+//      in the base widget class as a render method for all shapes. something to think about...
 
 
 Panel::Panel(Rectangle bounds, int borderRadius, Color bgColor){

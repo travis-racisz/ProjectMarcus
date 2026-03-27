@@ -1,6 +1,6 @@
 //
 //  Button.cpp
-//  cppARPG
+//  ShatteredScrolls
 //
 //  Created by Travis Racisz on 2026/03/25.
 //
@@ -32,7 +32,7 @@ void Button::render(){
     } else {
         DrawRectangleRounded(this -> bounds, 0.5f, 12, this -> bgColor);
     }
-    DrawText(this -> label.data(), this -> bounds.x + (textLength), this -> bounds.y + (this -> bounds.height / 2), this -> fontSize, this -> fontColor);
+    DrawText(this -> label.data(), this -> bounds.x + this->bounds.width / 4 - textLength / 2, this -> bounds.y + (this -> bounds.height / 4), this -> fontSize, this -> fontColor);
     
     
 };
