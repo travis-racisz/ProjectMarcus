@@ -10,4 +10,19 @@
 
 #include <stdio.h>
 
+class GameState {
+    
+private:
+    
+    
+public:
+    
+    enum Screen { MainMenu, Settings };
+    struct ScreenState {
+        Screen currentScreen = MainMenu;
+    };
+    
+    
+};
+
 #endif /* GameState_hpp */

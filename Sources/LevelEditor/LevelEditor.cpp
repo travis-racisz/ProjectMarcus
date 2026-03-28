@@ -21,6 +21,7 @@ LevelEditor::LevelEditor() {
     Panel leftPanel = Panel(Rectangle{.x=0, .y=0, .width=100, .height=700}, 1, ColorAlpha(Mocha::Base, 0.8f));
     leftPanel.alignment = Left;
     leftPanel.padding = 25;
+    leftPanel.borderRadius = 0.0f;
     Slider slider = Slider(Rectangle{
         .x = 10,
         .y = 20,

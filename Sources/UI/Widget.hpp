@@ -20,7 +20,7 @@ public:
     virtual void render() = 0;
     
     u_int32_t id;
-    int borderRadius;
+    float borderRadius;
     Color bgColor;
     Color fgColor;
     Color borderColor = BLACK;

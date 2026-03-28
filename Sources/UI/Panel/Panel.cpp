@@ -61,8 +61,8 @@ void Panel::render(){
         default:
             break;
     }
-    DrawRectangleRounded(this -> bounds, 0.25f, 12, this -> bgColor);
-    DrawRectangleRoundedLinesEx(this -> bounds, 0.25f, 12, this -> borderSize, this -> borderColor);
+    DrawRectangleRounded(this -> bounds, this -> borderRadius, 12, this -> bgColor);
+    DrawRectangleRoundedLinesEx(this -> bounds, this -> borderRadius, 12, this -> borderSize, this -> borderColor);
 
     // grid layout cursor — tracks where the next child should be placed
     float maxWidth = this -> bounds.x + this -> bounds.width - this -> padding;
